@@ -37,7 +37,7 @@ public class HelloApplication extends Application{
     @Override
     public void start(Stage stage) throws IOException {
         ArrayList<API> apis = new ArrayList<>();
-        String filePath = "D:/Example_1.xlsx";
+        String filePath = "Example_1.xlsx";
         apis = arrange(filePath);
         stage.setTitle("APIs");
         final ArrayList<API> lambada =apis;
